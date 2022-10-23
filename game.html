@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">   
+</head>
+<body>
+    <h1>Welcome to the game!</h1>
+    <h2>The goal is to pick the player who will win a battle in the Star Wars universe!</h2>
+    <h3>Choose wrong and you lose a life!!</h3>
+
+    <div id="playerHolder">
+
+        <button id="player1">
+            <div id="firstPerson">
+                <!-- box for person 1 -->
+                <img src="images/player1.png" alt="Fighter1" >
+                <h3 id="player1Name"></h3>
+            </div>
+        </button>
+        
+        <button id="player2">
+            <div id="secondPerson">
+                <!-- box for person 2 -->
+                <img src="images/player2.png" alt="Fighter2" >
+                <h3 id="player2Name"></h3>
+            </div>
+        </button>
+    </div>
+    <button id="start-button">START</button>
+
+
+    
+
+    <h3>
+        This is your health meter:
+    </h3>
+    <div id="images">
+        <img src="images/heart.jpg" alt="lifePic" id="lifePic">
+        <img src="images/heart.jpg" alt="lifePic" id="lifePic">
+        <img src="images/heart.jpg" alt="lifePic" id="lifePic">
+        <img src="images/heart.jpg" alt="lifePic" id="lifePic">
+        <img src="images/heart.jpg" alt="lifePic" id="lifePic">
+    </div>
+    
+
+    <h2 id="result">
+
+    </h2>
+</body>
+<script src="game.js"></script>
+</html>

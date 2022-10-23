@@ -1,0 +1,12 @@
+#firstPerson, #secondPerson {
+ display: inline-block;   
+}
+
+body {
+    text-align: center;
+}
+
+#images img{
+    display: inline;
+    height: 100px;
+}
